@@ -21,24 +21,27 @@ body{
 }
 
 body > div{
-    width: 600px;
+    width: 800px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
     box-shadow: 0 0 6px rgba( 0, 0, 0, 0.2 );
-    border: 2px solid #ffd24a;
+    border: 1px solid #ffd24a;
     border-radius:5px;
 }
 #site_header{
     background-color: #ff8523;
-    padding: 10px;
+    padding: 20px;
 }
-
-.main_navigation a{
-    border: 1px solid white;
+.main_navigation{
+    margin-bottom:10px;
+}
+.main_navigation > a{
+    border: .5px solid white;
     color:white;
     border-radius: 5px;
-    padding: 5px
+    padding: 5px 35px;
+    text-decoration: none;
 }
 #page_content{
     padding: 10px;
@@ -56,15 +59,22 @@ ul{
 table{
     border-spacing: 0;
     border-collapse: collapse;
+    width: 100%;
 }
 table td{
-    border: 2px solid #1fabe5;
+    border: 1px solid #1fabe5;
+    padding-left: 10px;
 }
 table thead{
     background-color: #1fabe5;
 }
 table thead td{
     border:1px solid #046c97;
+    color:white;
+}
+td img{
+    width: 50px;
+    text-align: center;
 }
 form{
     background-color: #eee;
